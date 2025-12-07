@@ -730,5 +730,19 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "o3_15steps_sft": {
+    "file_name": "/data/junrong/o3_15steps_llamafactory_sft.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
   }
 }
